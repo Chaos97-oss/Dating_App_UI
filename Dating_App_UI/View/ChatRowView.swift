@@ -43,7 +43,7 @@ Text(model.name)
 if model.isNewChat {
 Capsule()
 .fill(Color(hex: "#6E5DF0"))
-.overlay(Text("New chat").font(.system(size: 12, weight: .semibold)).foregroundColor(.white))
+.overlay(Text("• New chat").font(.system(size: 12, weight: .semibold)).foregroundColor(.white))
 .frame(height: 26)
 }
 
