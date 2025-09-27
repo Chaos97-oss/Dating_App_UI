@@ -74,7 +74,17 @@ Text(model.preview)
 
 Spacer()
 
-
+    if model.isFavorite {
+    ZStack {
+    Circle()
+    .fill(Color(hex: "#4B3AE6"))
+    .frame(width: 22, height: 22)
+    Image(systemName: "star.fill")
+    .font(.system(size: 12, weight: .bold))
+    .foregroundColor(.black)
+            }
+        }
+    
 if model.unreadCount > 0 {
 ZStack {
 Circle()
