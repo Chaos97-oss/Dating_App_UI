@@ -18,7 +18,7 @@ TurnCardView(gradient: Gradient(colors: [Color(hex: "#17C98F"), Color(hex: "#2CC
 TurnCardView(gradient: Gradient(colors: [Color(hex: "#C78E6A"), Color(hex: "#B57F64")]), name: "Malte", age: 31, question: "What is the most important quality in friendships to you?", topBadge: "📣They made a move!")
 
 
-TurnCardView(gradient: Gradient(colors: [Color(hex: "#4A6B4A"), Color(hex: "#314B36")]), name: "E...", age: 29, question: "If you could travel anywhere... ")
+TurnCardView(gradient: Gradient(colors: [Color(hex: "#4A6B4A"), Color(hex: "#314B36")]), name: "E...", age: 29, question: "If you could travel anywhere... ", topBadge: "📣")
 }
 .padding(.horizontal, 18)
 .padding(.vertical, 4)
