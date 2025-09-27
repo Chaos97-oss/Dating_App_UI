@@ -24,6 +24,14 @@
 		0406BCD12E87E6BB002CCBF6 /* TurnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD02E87E6BB002CCBF6 /* TurnCardView.swift */; };
 		0406BCD52E87E707002CCBF6 /* ChatsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD42E87E707002CCBF6 /* ChatsHeaderView.swift */; };
 		0406BCD72E87E71E002CCBF6 /* ChatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD62E87E71E002CCBF6 /* ChatsListView.swift */; };
+		0406BCD92E87E83C002CCBF6 /* StarField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD82E87E83C002CCBF6 /* StarField.swift */; };
+		0406BCDE2E87EC50002CCBF6 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCDD2E87EC50002CCBF6 /* TabItem.swift */; };
+		0406BCE02E87ECC3002CCBF6 /* ChatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCDF2E87ECC3002CCBF6 /* ChatRowView.swift */; };
+		0406BCE32E87ED51002CCBF6 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCE22E87ED51002CCBF6 /* TabButton.swift */; };
+		0406BCE52E87EE95002CCBF6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCE42E87EE95002CCBF6 /* Color.swift */; };
+		0406BCE72E87EEC4002CCBF6 /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCE62E87EEC4002CCBF6 /* VisualEffectBlur.swift */; };
+		0406BCE92E87EEFD002CCBF6 /* MatchView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCE82E87EEFD002CCBF6 /* MatchView_Previews.swift */; };
+		0406BCEC2E87EF41002CCBF6 /* ChatRowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCEB2E87EF41002CCBF6 /* ChatRowModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +72,14 @@
 		0406BCD02E87E6BB002CCBF6 /* TurnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnCardView.swift; sourceTree = "<group>"; };
 		0406BCD42E87E707002CCBF6 /* ChatsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsHeaderView.swift; sourceTree = "<group>"; };
 		0406BCD62E87E71E002CCBF6 /* ChatsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsListView.swift; sourceTree = "<group>"; };
+		0406BCD82E87E83C002CCBF6 /* StarField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarField.swift; sourceTree = "<group>"; };
+		0406BCDD2E87EC50002CCBF6 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		0406BCDF2E87ECC3002CCBF6 /* ChatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowView.swift; sourceTree = "<group>"; };
+		0406BCE22E87ED51002CCBF6 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		0406BCE42E87EE95002CCBF6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0406BCE62E87EEC4002CCBF6 /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		0406BCE82E87EEFD002CCBF6 /* MatchView_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView_Previews.swift; sourceTree = "<group>"; };
+		0406BCEB2E87EF41002CCBF6 /* ChatRowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,9 @@
 		0406BC952E87E141002CCBF6 /* Dating_App_UI */ = {
 			isa = PBXGroup;
 			children = (
+				0406BCEA2E87EF20002CCBF6 /* Model */,
+				0406BCE12E87ED1D002CCBF6 /* Button */,
+				0406BCDA2E87EBBA002CCBF6 /* Enum */,
 				0406BCC52E87E59F002CCBF6 /* View */,
 				0406BC962E87E141002CCBF6 /* Dating_App_UIApp.swift */,
 				0406BC982E87E141002CCBF6 /* ContentView.swift */,
@@ -161,8 +180,37 @@
 				0406BCD02E87E6BB002CCBF6 /* TurnCardView.swift */,
 				0406BCD42E87E707002CCBF6 /* ChatsHeaderView.swift */,
 				0406BCD62E87E71E002CCBF6 /* ChatsListView.swift */,
+				0406BCD82E87E83C002CCBF6 /* StarField.swift */,
+				0406BCDF2E87ECC3002CCBF6 /* ChatRowView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0406BCDA2E87EBBA002CCBF6 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0406BCDD2E87EC50002CCBF6 /* TabItem.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		0406BCE12E87ED1D002CCBF6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				0406BCE22E87ED51002CCBF6 /* TabButton.swift */,
+				0406BCE42E87EE95002CCBF6 /* Color.swift */,
+				0406BCE62E87EEC4002CCBF6 /* VisualEffectBlur.swift */,
+				0406BCE82E87EEFD002CCBF6 /* MatchView_Previews.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		0406BCEA2E87EF20002CCBF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0406BCEB2E87EF41002CCBF6 /* ChatRowModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,17 +343,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0406BCE92E87EEFD002CCBF6 /* MatchView_Previews.swift in Sources */,
 				0406BCCF2E87E696002CCBF6 /* CardsScrollView.swift in Sources */,
 				0406BCD12E87E6BB002CCBF6 /* TurnCardView.swift in Sources */,
 				0406BCCD2E87E672002CCBF6 /* BadgeView.swift in Sources */,
 				0406BCC72E87E5E1002CCBF6 /* BackgroundView.swift in Sources */,
+				0406BCE52E87EE95002CCBF6 /* Color.swift in Sources */,
 				0406BCD72E87E71E002CCBF6 /* ChatsListView.swift in Sources */,
 				0406BCD52E87E707002CCBF6 /* ChatsHeaderView.swift in Sources */,
 				0406BCA02E87E143002CCBF6 /* Persistence.swift in Sources */,
 				0406BCC92E87E633002CCBF6 /* View.swift in Sources */,
+				0406BCDE2E87EC50002CCBF6 /* TabItem.swift in Sources */,
+				0406BCD92E87E83C002CCBF6 /* StarField.swift in Sources */,
 				0406BC992E87E141002CCBF6 /* ContentView.swift in Sources */,
 				0406BCCB2E87E655002CCBF6 /* TopHeaderView.swift in Sources */,
+				0406BCE02E87ECC3002CCBF6 /* ChatRowView.swift in Sources */,
+				0406BCE32E87ED51002CCBF6 /* TabButton.swift in Sources */,
+				0406BCE72E87EEC4002CCBF6 /* VisualEffectBlur.swift in Sources */,
 				0406BCA32E87E143002CCBF6 /* Dating_App_UI.xcdatamodeld in Sources */,
+				0406BCEC2E87EF41002CCBF6 /* ChatRowModel.swift in Sources */,
 				0406BC972E87E141002CCBF6 /* Dating_App_UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
