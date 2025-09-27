@@ -16,6 +16,14 @@
 		0406BCAD2E87E144002CCBF6 /* Dating_App_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCAC2E87E144002CCBF6 /* Dating_App_UITests.swift */; };
 		0406BCB72E87E144002CCBF6 /* Dating_App_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCB62E87E144002CCBF6 /* Dating_App_UIUITests.swift */; };
 		0406BCB92E87E144002CCBF6 /* Dating_App_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCB82E87E144002CCBF6 /* Dating_App_UIUITestsLaunchTests.swift */; };
+		0406BCC72E87E5E1002CCBF6 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCC62E87E5E1002CCBF6 /* BackgroundView.swift */; };
+		0406BCC92E87E633002CCBF6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCC82E87E633002CCBF6 /* View.swift */; };
+		0406BCCB2E87E655002CCBF6 /* TopHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCCA2E87E655002CCBF6 /* TopHeaderView.swift */; };
+		0406BCCD2E87E672002CCBF6 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCCC2E87E672002CCBF6 /* BadgeView.swift */; };
+		0406BCCF2E87E696002CCBF6 /* CardsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCCE2E87E696002CCBF6 /* CardsScrollView.swift */; };
+		0406BCD12E87E6BB002CCBF6 /* TurnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD02E87E6BB002CCBF6 /* TurnCardView.swift */; };
+		0406BCD52E87E707002CCBF6 /* ChatsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD42E87E707002CCBF6 /* ChatsHeaderView.swift */; };
+		0406BCD72E87E71E002CCBF6 /* ChatsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406BCD62E87E71E002CCBF6 /* ChatsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,14 @@
 		0406BCB22E87E144002CCBF6 /* Dating_App_UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dating_App_UIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0406BCB62E87E144002CCBF6 /* Dating_App_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dating_App_UIUITests.swift; sourceTree = "<group>"; };
 		0406BCB82E87E144002CCBF6 /* Dating_App_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dating_App_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0406BCC62E87E5E1002CCBF6 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		0406BCC82E87E633002CCBF6 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0406BCCA2E87E655002CCBF6 /* TopHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeaderView.swift; sourceTree = "<group>"; };
+		0406BCCC2E87E672002CCBF6 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		0406BCCE2E87E696002CCBF6 /* CardsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsScrollView.swift; sourceTree = "<group>"; };
+		0406BCD02E87E6BB002CCBF6 /* TurnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnCardView.swift; sourceTree = "<group>"; };
+		0406BCD42E87E707002CCBF6 /* ChatsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsHeaderView.swift; sourceTree = "<group>"; };
+		0406BCD62E87E71E002CCBF6 /* ChatsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +114,7 @@
 		0406BC952E87E141002CCBF6 /* Dating_App_UI */ = {
 			isa = PBXGroup;
 			children = (
+				0406BCC52E87E59F002CCBF6 /* View */,
 				0406BC962E87E141002CCBF6 /* Dating_App_UIApp.swift */,
 				0406BC982E87E141002CCBF6 /* ContentView.swift */,
 				0406BC9A2E87E143002CCBF6 /* Assets.xcassets */,
@@ -131,6 +148,21 @@
 				0406BCB82E87E144002CCBF6 /* Dating_App_UIUITestsLaunchTests.swift */,
 			);
 			path = Dating_App_UIUITests;
+			sourceTree = "<group>";
+		};
+		0406BCC52E87E59F002CCBF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0406BCC62E87E5E1002CCBF6 /* BackgroundView.swift */,
+				0406BCC82E87E633002CCBF6 /* View.swift */,
+				0406BCCA2E87E655002CCBF6 /* TopHeaderView.swift */,
+				0406BCCC2E87E672002CCBF6 /* BadgeView.swift */,
+				0406BCCE2E87E696002CCBF6 /* CardsScrollView.swift */,
+				0406BCD02E87E6BB002CCBF6 /* TurnCardView.swift */,
+				0406BCD42E87E707002CCBF6 /* ChatsHeaderView.swift */,
+				0406BCD62E87E71E002CCBF6 /* ChatsListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0406BCCF2E87E696002CCBF6 /* CardsScrollView.swift in Sources */,
+				0406BCD12E87E6BB002CCBF6 /* TurnCardView.swift in Sources */,
+				0406BCCD2E87E672002CCBF6 /* BadgeView.swift in Sources */,
+				0406BCC72E87E5E1002CCBF6 /* BackgroundView.swift in Sources */,
+				0406BCD72E87E71E002CCBF6 /* ChatsListView.swift in Sources */,
+				0406BCD52E87E707002CCBF6 /* ChatsHeaderView.swift in Sources */,
 				0406BCA02E87E143002CCBF6 /* Persistence.swift in Sources */,
+				0406BCC92E87E633002CCBF6 /* View.swift in Sources */,
 				0406BC992E87E141002CCBF6 /* ContentView.swift in Sources */,
+				0406BCCB2E87E655002CCBF6 /* TopHeaderView.swift in Sources */,
 				0406BCA32E87E143002CCBF6 /* Dating_App_UI.xcdatamodeld in Sources */,
 				0406BC972E87E141002CCBF6 /* Dating_App_UIApp.swift in Sources */,
 			);
