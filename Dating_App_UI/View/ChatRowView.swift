@@ -40,20 +40,27 @@ Text(model.name)
 .font(.system(size: 16, weight: .bold))
 
 
-if model.isNewChat {
-Capsule()
-.fill(Color(hex: "#6E5DF0"))
-.overlay(Text("• New chat").font(.system(size: 12, weight: .semibold)).foregroundColor(.white))
-.frame(height: 26)
-}
+    if model.isNewChat {
+        Text("• New chat")
+            .font(.system(size: 12, weight: .semibold))
+            .foregroundColor(.white)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(
+                Capsule().fill(Color(hex: "#6E5DF0"))
+            )
+    }
 
-
-if model.isYourMove {
-Capsule()
-.fill(Color(hex: "#2E2D35"))
-.overlay(Text("Your move").font(.system(size: 12, weight: .semibold)).foregroundColor(Color.white.opacity(0.9)))
-.frame(height: 26)
-}
+    if model.isYourMove {
+        Text("Your move")
+            .font(.system(size: 12, weight: .semibold))
+            .foregroundColor(Color.white.opacity(0.9))
+            .padding(.horizontal, 8)  
+            .padding(.vertical, 4)
+            .background(
+                Capsule().fill(Color(hex: "#2E2D35"))
+            )
+    }
 
 
 Spacer()
