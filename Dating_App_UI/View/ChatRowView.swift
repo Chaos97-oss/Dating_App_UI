@@ -29,7 +29,7 @@ Circle()
 .fill(Color(hex: "#2C2A35"))
 .frame(width: 64, height: 26)
 .offset(x: 0, y: 16)
-.opacity(0) // invisible; we keep avatar appearance only
+.opacity(0) 
 }
 }
 

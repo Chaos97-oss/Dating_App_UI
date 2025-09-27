@@ -32,7 +32,7 @@ RoundedRectangle(cornerRadius: 20)
 
 if let topBadge = topBadge {
 Text(topBadge)
-.font(.system(size: 12, weight: .semibold))
+.font(.system(size: 9, weight: .semibold))
 .padding(.horizontal, 10)
 .padding(.vertical, 6)
 .background(Capsule().fill(Color.black.opacity(0.6)))
@@ -46,17 +46,17 @@ Spacer()
 
 
 Text("Tap to answer")
-.font(.system(size: 14, weight: .regular))
+.font(.system(size: 10, weight: .regular))
 .foregroundColor(Color.white.opacity(0.35))
 
 
 Text("\(name), \(age)")
-.font(.system(size: 18, weight: .bold))
+.font(.system(size: 14, weight: .bold))
 .foregroundColor(.white)
 
 
 Text(question)
-.font(.system(size: 13))
+.font(.system(size: 9))
 .foregroundColor(Color.white.opacity(0.8))
 .lineLimit(2)
 }
@@ -65,6 +65,6 @@ Text(question)
 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
 }
 }
-.frame(width: 240, height: 200)
+.frame(width: 150, height: 240)
 }
 }
